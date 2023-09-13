@@ -22,6 +22,7 @@ h5{
 
 li {
    list-style-type: none;
+   list-style: none;
    text-decoration: none;
    display: inline-block;
    margin-top: 0;
@@ -30,6 +31,17 @@ li {
    font-size: 13px;
    border-top: 2px solid #bababa;
    border-bottom: 2px solid #bababa;
+   
+}
+
+a {
+    color: grey;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .more-articles {
